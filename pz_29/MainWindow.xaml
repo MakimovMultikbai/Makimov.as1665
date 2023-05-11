@@ -1,0 +1,26 @@
+﻿<Window x:Class="pz_29.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pz_29"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Пропустить день" FontSize="30" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="260" Height="200" Background="Yellow" Click="Skip_A_Day"/>
+        <Button Content="Положить" FontSize="30" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="260" Height="200" Background="Yellow" Click="AddSumHandler"/>
+        <Button Content="Снять" FontSize="30" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="260" Height="200" Background="Yellow" Click="WithdrawSumHandler"/>
+        <Button Content="Выйти" FontSize="30" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="260" Height="200" Background="Yellow" Click="Exit"/>
+        <Button Content="Закрыть счёт" FontSize="30" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="260" Height="200" Background="Yellow" Click="CloseAccountHandler"/>
+        <Button Content="Открыть счёт" FontSize="30" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="260" Height="200" Background="Yellow" Click="OpenAccountHandler"/>
+    </Grid>
+</Window>
