@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace pz_24
 {
-    internal class AudioBook : Track24
+    internal class AudioBook : Track22, ICloneable
     {
+        public object Clone()
+        {
+            return new AudioBook(Author, Title, Album, Year, typeCodecEnum, Time);
+        }
         private int time = 60;
 
         public int Time

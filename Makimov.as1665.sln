@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_21", "pz_21\pz_21.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_22 and pz_23", "pz_22\pz_22 and pz_23.csproj", "{8E7DF729-A9B8-4EF1-9272-FEC03DF33225}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_24", "pz_24\pz_24.csproj", "{CD57F20A-3DEA-4D03-9DA9-E9849BEEFD09}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_25", "pz_25\pz_25.csproj", "{0BAA0B55-6B05-4D7B-BBFE-B474E05EEEDF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_27", "pz_27\pz_27.csproj", "{2D78084F-F293-4098-BB35-A4896A1134C1}"
@@ -18,6 +16,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_29", "pz_29\pz_29.csproj", "{19033CBD-FD49-4C10-8D6E-2BDE66FEB377}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankLibrary", "BankLibrary\BankLibrary.csproj", "{305C0F28-56A1-4664-879F-B79D947E143F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_24", "pz_24\pz_24\pz_24.csproj", "{80A2D2C6-984C-4B30-81EB-321FDC005F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,6 @@ Global
 		{8E7DF729-A9B8-4EF1-9272-FEC03DF33225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E7DF729-A9B8-4EF1-9272-FEC03DF33225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E7DF729-A9B8-4EF1-9272-FEC03DF33225}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD57F20A-3DEA-4D03-9DA9-E9849BEEFD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD57F20A-3DEA-4D03-9DA9-E9849BEEFD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD57F20A-3DEA-4D03-9DA9-E9849BEEFD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD57F20A-3DEA-4D03-9DA9-E9849BEEFD09}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0BAA0B55-6B05-4D7B-BBFE-B474E05EEEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0BAA0B55-6B05-4D7B-BBFE-B474E05EEEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BAA0B55-6B05-4D7B-BBFE-B474E05EEEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +53,10 @@ Global
 		{305C0F28-56A1-4664-879F-B79D947E143F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{305C0F28-56A1-4664-879F-B79D947E143F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{305C0F28-56A1-4664-879F-B79D947E143F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A2D2C6-984C-4B30-81EB-321FDC005F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A2D2C6-984C-4B30-81EB-321FDC005F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A2D2C6-984C-4B30-81EB-321FDC005F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A2D2C6-984C-4B30-81EB-321FDC005F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

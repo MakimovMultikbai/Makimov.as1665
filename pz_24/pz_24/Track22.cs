@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace pz_24
 {
-    internal class Track24
+    internal class Track22 : ICloneable
     {
+        public object Clone()
+        {
+            return new Track22(author, title, album, year, typeCodecEnum);
+        }
 
         private string author = "Something";
         private string title = "TitleSomething";
@@ -88,7 +92,7 @@ namespace pz_24
 
         }
 
-        public Track24(string author, string title, string album, int year, TypeCodecEnum typeCodecEnum)
+        public Track22(string author, string title, string album, int year, TypeCodecEnum typeCodecEnum)
         {
             Author = author;
             Title = title;

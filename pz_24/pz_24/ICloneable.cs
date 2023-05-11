@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pz_23
+namespace pz_24
 {
-
-    internal class AudioBook: Track22
+    internal interface ICloneable
     {
+        object Clone();
     }
 }
